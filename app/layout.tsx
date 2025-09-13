@@ -9,6 +9,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NODE_ENV === 'production' ? 'https://your-domain.com' : 'http://localhost:3000'),
   title: "KaloWrite - Humanize Your Content",
   description: "KaloWrite humanizes your content and outsmarts even the most robust AI detection tools. Try for free, no credit card required.",
   icons: {

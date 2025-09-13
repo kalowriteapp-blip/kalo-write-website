@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Home() {
   const [wordCount, setWordCount] = useState(0);
@@ -19,7 +20,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <img src="/assets/images/kalowrite logo.png" alt="KaloWrite" className="h-6 sm:h-7 md:h-8 lg:h-9 w-auto transition-all duration-300" />
+              <Image src="/assets/images/kalowrite logo.png" alt="KaloWrite" width={120} height={40} className="h-6 sm:h-7 md:h-8 lg:h-9 w-auto transition-all duration-300" />
             </div>
             {/* Desktop Navigation */}
             <div className="hidden md:block">
@@ -153,10 +154,10 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-16 items-center mb-16">
             <div>
               <h2 className="text-3xl font-headline text-brand-text mb-6">
-                Built and tested against the world's best AI detection tools
+                Built and tested against the world&apos;s best AI detection tools
               </h2>
               <p className="text-lg text-brand-text/70 font-body leading-relaxed">
-                We studied some of the world's best AI detection models and reverse engineered them. KaloWrite breaks down your content and its semantics and removes key AI patterns such as perplexity and burstiness.
+                We studied some of the world&apos;s best AI detection models and reverse engineered them. KaloWrite breaks down your content and its semantics and removes key AI patterns such as perplexity and burstiness.
               </p>
             </div>
             <div className="bg-gradient-to-br from-brand-primary/10 to-brand-primary/5 rounded-xl h-80 flex items-center justify-center border border-brand-primary/20">
@@ -189,7 +190,7 @@ export default function Home() {
                 Get natural sounding humanized content within seconds
               </h2>
               <p className="text-lg text-brand-text/70 font-body leading-relaxed">
-                Whether you're writing an essay or an SEO blog article, KaloWrite ensures your text sounds natural and human. Your content transforms into natural and personal rather than robotic.
+                Whether you&apos;re writing an essay or an SEO blog article, KaloWrite ensures your text sounds natural and human. Your content transforms into natural and personal rather than robotic.
               </p>
             </div>
           </div>
@@ -254,7 +255,7 @@ export default function Home() {
             </div>
             
             <div className="flex items-center space-x-8">
-              <img src="/assets/images/kalowrite logo.png" alt="KaloWrite" className="h-5 sm:h-6 md:h-7 w-auto transition-all duration-300" />
+              <Image src="/assets/images/kalowrite logo.png" alt="KaloWrite" width={100} height={30} className="h-5 sm:h-6 md:h-7 w-auto transition-all duration-300" />
               <div className="flex space-x-6">
                 <a href="#" className="text-brand-text/60 hover:text-brand-primary font-body transition-colors text-sm">AI Humanizer</a>
                 <a href="#" className="text-brand-text/60 hover:text-brand-primary font-body transition-colors text-sm">Blog</a>
