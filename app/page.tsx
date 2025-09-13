@@ -94,14 +94,15 @@ export default function Home() {
       <section className="bg-brand-background py-16 relative overflow-hidden">
         {/* Hero Background Image */}
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70"
           style={{
             backgroundImage: 'url(./assets/images/hero background dots.png)',
             backgroundPosition: 'center',
-            backgroundSize: 'cover'
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
           }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/3 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/10 to-transparent"></div>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <div className="bg-brand-primary/10 text-brand-primary px-4 py-2 rounded-full inline-block text-sm font-body mb-8 border border-brand-primary/20">
             👋 50% OFF ON ALL PLANS
