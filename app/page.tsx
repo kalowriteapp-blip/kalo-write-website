@@ -20,7 +20,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Image src="/assets/images/kalowrite logo.png" alt="KaloWrite" width={120} height={40} className="h-6 sm:h-7 md:h-8 lg:h-9 w-auto transition-all duration-300" />
+              <Image src="./assets/images/kalowrite logo.png" alt="KaloWrite" width={120} height={40} className="h-6 sm:h-7 md:h-8 lg:h-9 w-auto transition-all duration-300" />
             </div>
             {/* Desktop Navigation */}
             <div className="hidden md:block">
@@ -255,7 +255,7 @@ export default function Home() {
             </div>
             
             <div className="flex items-center space-x-8">
-              <Image src="/assets/images/kalowrite logo.png" alt="KaloWrite" width={100} height={30} className="h-5 sm:h-6 md:h-7 w-auto transition-all duration-300" />
+              <Image src="./assets/images/kalowrite logo.png" alt="KaloWrite" width={100} height={30} className="h-5 sm:h-6 md:h-7 w-auto transition-all duration-300" />
               <div className="flex space-x-6">
                 <a href="#" className="text-brand-text/60 hover:text-brand-primary font-body transition-colors text-sm">AI Humanizer</a>
                 <a href="#" className="text-brand-text/60 hover:text-brand-primary font-body transition-colors text-sm">Blog</a>
